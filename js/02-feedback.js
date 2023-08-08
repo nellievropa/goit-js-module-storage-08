@@ -18,9 +18,18 @@ function onFormSubmit(event) {}
 
 // Получаем значение поля
 // сохраняем его в хранилище
+// можна додати trottle, щоб збарігалося через деякий час, а не кожний символ
 
 function onTextareaInput(event) {
-    const value = event.currentTarget.value;
+    // перевірити, чи працює
+    // const value = event.currentTarget.value;
+    // console.log(value)
+    const message = event.currentTarget.value;
 
-    console.log(value)
+    localStorage.setItem('feedback-msg', message);
 }
+
+// отримуємо значення із хранилища
+// якщо там щось було, обновляємо DOM
+
+function populateMessageOutput() {}

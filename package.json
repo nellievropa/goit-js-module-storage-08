@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "source": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,11 @@
   },
   "homepage": "https://github.com/nellievropa/goit-js-module-storage-08#readme",
   "dependencies": {
+    
     "joi": "^17.9.2"
+  },
+  "devDependencies": {
+
+    "parcel": "^2.9.3"
   }
 }
