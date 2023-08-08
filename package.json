@@ -20,11 +20,11 @@
   },
   "homepage": "https://github.com/nellievropa/goit-js-module-storage-08#readme",
   "dependencies": {
-    
-    "joi": "^17.9.2"
+    "joi": "^17.9.2",
+    "lodash.throttle": "^4.1.1"
   },
   "devDependencies": {
-
-    "parcel": "^2.9.3"
+    "parcel": "^2.9.3",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
   }
 }
