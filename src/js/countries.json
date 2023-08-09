@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Australia",
+        "capital": "Canberra",
+        "currency": "Australian dollar (AUD)",
+        "language": "English",
+        "population": 24978200,
+        "flag": "https://flagicons.lipis.dev/flags/4x3/au.svg",
+        "infected": false
+    },
+    {
+        "name": "Bolivia",
+        "capital": "Suckre",
+        "currency": "Boliviano(BOB)",
+        "language": "Espaniol",
+        "population": 10461053,
+        "flag": "https://flagicons.lipis.dev/flags/4x3/bo.svg",
+        "infected": true
+    },
+    {
+        "name": "United Kingdom",
+        "capital": "London",
+        "currency": "Funt sterlings (GBP)",
+        "language": "English",
+        "population": 63395574,
+        "flag": "https://flagicons.lipis.dev/flags/4x3/gb.svg",
+        "infected": true
+    }
+]

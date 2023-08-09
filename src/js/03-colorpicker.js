@@ -14,15 +14,20 @@
     // }
 
     import colorCardTpl from '../templates/color-picker.hbs';
+    import colorCardsTpl from '../templates/color-cards.hbs'
     import colors from './colors.json';
     import '../css/common.css';
     import '../css/colorpicker.css';
+
+    console.log(colorCardsTpl({ colors }));
+// або так console.log(colorCardsTpl({ [] })); тоді в color-crds повинна бути запис {{#each this}}  
+
 
     // при імпорті отримуємо готову функцію-шаблон, яка готова приймати дані
 // отримаємо картку [0] кольору
     // console.log(colorCardTpl(0));
 
-    const paletteContainer = document.querySelector('.js-palette');
+const paletteContainer = document.querySelector('.js-palette');
 // ця змінна зберігає результат виклику всієї 1-ї функції
 const cardsMarkup = createColorCardsMarkup(colors);
 
@@ -36,7 +41,8 @@ function createColorCardsMarkup(colors) {
     // аналогічний запис
     return colors.map(colorCardTpl).join('');
 
-    
+    //  при використанні такого запису console.log(colorCardsTpl({ colors }));
+    // запис функції буде виглядати так: return colorCardsTpl(colors)
 }
 function onPaletteContainerClick(event) {
     // console.log(event.target);    
