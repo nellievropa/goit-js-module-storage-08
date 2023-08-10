@@ -25,5 +25,23 @@
         "population": 63395574,
         "flag": "https://flagicons.lipis.dev/flags/4x3/gb.svg",
         "infected": true
+    },
+    {
+        "name": "Sweden",
+        "capital": "Stockgolm",
+        "currency": "Sweden crona (SEK)",
+        "language": "Sweden",
+        "population": 9723809,
+        "flag": "https://flagicons.lipis.dev/flags/4x3/se.svg",
+        "infected": true
+    },
+    {
+        "name": "Portugal",
+        "capital": "Lisbon",
+        "currency": "Euro (EUR)",
+        "language": "Portugese",
+        "population": 10799270,
+        "flag": "https://flagicons.lipis.dev/flags/4x3/pt.svg",
+        "infected": true
     }
 ]

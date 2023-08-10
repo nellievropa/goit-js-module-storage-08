@@ -7,8 +7,16 @@
     <p><b>Capital:</b>{{capital}}</p>
     <p><b>Currency:</b>{{currency}}</p>
     <p><b>Official Language:</b>{{language}}</p>
-    <p><b>Population:</b>{{population}}</p>
+    <p><b>Population:</b>{{population}} people</p>
    </li>
+
+   {{#if infected}}
+   <p style="color: red;">ВСЕ пропало!!!!!!!!!!!!!!</p>
+   {{/if}}
+
+   {{#unless infected}}
+   <p style="color: green;">ВСЕ круто!!!!!!!!!!!!!!</p>
+   {{/unless}}
 {{/each}}
 
 
